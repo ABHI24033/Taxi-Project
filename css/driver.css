@@ -1,0 +1,83 @@
+
+
+.list > ul >li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+.list>button :hover{
+    color: #ffc107 !important;
+    
+}
+
+#driver>div>p{
+    font-size: 1.2rem;
+}
+#driver button{
+    background-color: #ffc107;
+    padding: 1rem 3.5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 2rem 2rem !important;
+}
+#driver button:hover{
+    color: #ffc107 !important;
+    /* color: red; */
+    background-color: #212529;
+}
+
+/* tesimonial*/
+#tesimonial{
+    background-color: rgb(235, 234, 234);
+}
+#carouselExampleInterval{
+    width: 100%;
+    height: 50% !important;
+    /* background: #000; */
+}
+#carouselExampleInterval>div{
+    width: 100%;
+    height: 30rem;
+}
+.clientname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.clientname >i{
+    color: lightgray;
+}
+.testimonial-card img{
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(90%/2);
+    bottom: -25px;
+}
+.buttons{
+    padding-left: calc(95%/2);
+    gap: 1px;
+}
+#buttons button{
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+}
+.buttons button:hover{
+   background-color: #212529;
+}
+#OfferImage{
+    width: 100%;
+    padding: 10px;
+}
+#OfferImage img{
+    width: 100%;
+}
+
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

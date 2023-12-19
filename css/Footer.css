@@ -1,0 +1,50 @@
+#footer-upper-part>div>div{
+    padding: 0rem 0rem;
+    padding-top: 2rem;
+}
+#footer-upper-part h3{
+    line-height: 25px;
+    font-weight: 900 !important;
+    font-size: 25px;
+}
+#footer-upper-part h1{
+    line-height: 40px;
+    font-weight: 900 !important;
+    font-size: 40px;
+}
+#footer-about h2{
+
+}
+#footer-middle-part h2{
+    color: #ffc107;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+}
+#footer-middle-part p{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+#fooetr-explore >div ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px dashed #929394;
+    padding: 7px 0px;
+    width: 10rem;
+}
+
+#fooetr-explore >div ul li a{
+    color: white;
+    text-decoration: none;
+}
+#fooetr-explore >div {
+    margin-left: -40px;
+    padding-left: -20px;
+}
+#footer-bottom-part{
+    background-color: #0a0a0a;
+    color: #929394;
+}
