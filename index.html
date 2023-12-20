@@ -7,7 +7,6 @@
   <title>Document</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet"> -->
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -15,29 +14,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- swiper cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- owl carousel cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Css Files -->
-  <link rel="stylesheet" href="./css/Navbar.css">
+  <link rel="stylesheet" href="./css/NavbarBanner.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/tarrif.css">
   <link rel="stylesheet" href="./css/downloadSection.css">
-  <link rel="stylesheet" href="./css/driver.css">
+  <link rel="stylesheet" href="./css/driverTestimonial.css">
   <link rel="stylesheet" href="./css/Footer.css">
 </head>
 
 <body>
   <!-- Header Section -->
-  <!-- <header class=""> -->
   <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
-    <div class="container py-2">
+    <!-- <span></span> -->
+    <div class="container py-2 ">
       <a class="navbar-brand" href="#">
         <img src="./assets/img/logo-inner.png" alt="logo">
       </a>
       <button class="navbar-toggler hidden " type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
         <i class="fa-solid fa-bars text-white fs-1 " id="hambergerIcon"></i>
       </button>
 
@@ -120,9 +127,9 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Page One Column</a></li>
               <li><a class="dropdown-item" href="#">Page Two Column</a></li>
-              <li><a class="dropdown-item" href="#">Page Three Column</a></li>  
-              <li><a class="dropdown-item" href="#">Page four Column</a></li>  
-              <li><a class="dropdown-item" href="#">Page five Column</a></li>  
+              <li><a class="dropdown-item" href="#">Page Three Column</a></li>
+              <li><a class="dropdown-item" href="#">Page four Column</a></li>
+              <li><a class="dropdown-item" href="#">Page five Column</a></li>
             </ul>
           </li>
 
@@ -136,16 +143,15 @@
       </div>
     </div>
   </nav>
-  <!-- </header> -->
 
   <section id="banner">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <img src="./assets/img/corusel-img-1.jpg" class="d-block kenburns-bottom-right" alt="slide img1">
+          <img src="./assets/img/carousel-2 (1).jpg" class="d-block kenburns-bottom-right" alt="slide img1">
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/corusel-img-2.jpg" class="d-block kenburns-bottom-right" alt="slide img-2" />
+          <img src="./assets/img/carousel-2 (2).jpg" class="d-block kenburns-bottom-right" alt="slide img-2" />
         </div>
         <div class="carousel-item" data-bs-interval="5000">
           <img src="./assets/img/corusel-img-3.jpg" class="d-block kenburns-bottom-right" alt="slide img3">
@@ -223,13 +229,13 @@
   </section>
 
   <!-- ============services section================ -->
-  <section class="mt-5 py-3 " id="services">
+  <section class="mt-5 py-3 " id="services" >
     <div class="heading mb-4">
       <h3 class="fs-4 text-warning text-center">WELCOME</h3>
       <h1 class="text-center">OUR SERVICES</h1>
     </div>
     <!-- -----------------cards -->
-    <div class="container row d-flex justify-content-center mx-auto gap-1 ">
+    <div class="container row d-flex flex-wrap justify-content-center mx-auto gap-1 ">
 
       <div class="p-4 col-12 col-md-6 col-lg-3" style="width:17rem; height: 18rem; border-right: 1px dashed lightgray;">
         <div class=" d-flex justify-content-center align-content-center py-3 mb-3">
@@ -276,8 +282,8 @@
     </div>
   </section>
   <!-- =========================================== -->
-  <!-- =========================================== -->
-  <section id="tariffs" class="mt-5 py-5 pb-5">
+  <!-- ==================traffic================== -->
+  <section id="tariffs" class="mt-5 py-5 pb-5 ">
     <div class="heading mb-4">
       <h3 class="fs-4 text-warning text-center">SEE OUR</h3>
       <h1 class="text-center">TARIFFS</h1>
@@ -428,157 +434,147 @@
       <h1 class="text-center fw-bolder">TESTIMONIALS</h1>
     </div>
 
-    <div class="container ">
-      <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
-        <div class="carousel-inner ">
-          <div class="carousel-item active" data-bs-interval="10000">
+    <div class="container mb-4">
 
-            <div class="d-flex gap-3 ">
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-
+      <div class="owl-carousel owl-theme ">
+        <div class="item card-container">
+          <div class="card testimonial-card  p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
             </div>
-          </div>
-          <div class="carousel-item active" data-bs-interval="10000">
-
-            <div class="d-flex gap-3 ">
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body testimonial-card text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-4.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body testimonial-card text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
             </div>
+            <img src="./assets/img/client-1.jpg" alt="client-1">
           </div>
-          <div class="carousel-item active" data-bs-interval="10000">
-
-            <div class="d-flex gap-3 ">
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-              <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
-                <div class="card-body text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
-                  quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
-                  libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
-                  sit!
-                </div>
-                <div class=" clientname ">
-                  <i class="fa-solid fa-quote-left fs-1 text-center"></i>
-                  <p class="fs-5 fw-bold text-center">Patrik James</p>
-                </div>
-                <img src="./assets/img/client-1.jpg" alt="client-1">
-              </div>
-
-            </div>
-          </div>
-
         </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-4.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-5.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-1.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-4.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-5.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-1.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-1.jpg" alt="client-1">
+          </div>
+        </div>
+        <div class="item card-container">
+          <div class="card testimonial-card ms-3 p-4" style="width: 21rem; height: 25rem; border: none;">
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat repudiandae mollitia a sint
+              quia nesciunt iusto asperiores obcaecati dolorum? Cupiditate sequi voluptatum animi, at delectus,
+              libero veritatis, cum tenetur id fugit culpa debitis. Tempore, tenetur mollitia! Nemo, reprehenderit
+              sit!
+            </div>
+            <div class=" clientname ">
+              <i class="fa-solid fa-quote-left fs-1 text-center"></i>
+              <p class="fs-5 fw-bold text-center">Patrik James</p>
+            </div>
+            <img src="./assets/img/client-1.jpg" alt="client-1">
+          </div>
+        </div>
+        
       </div>
-      <div class="buttons mb-5 pb-5" id="buttons">
-        <button class="mx-auto bg-warning text-white mx-3" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev">
-          <i class="fa-solid fa-caret-left px-3 py-2"></i>
-        </button>
-        <button class="mx-auto bg-warning text-white" type="button" data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next">
-          <i class="fa-solid fa-caret-right px-3 py-2 "></i>
-        </button>
-      </div>
+    </div>
 
     </div>
     </div>
@@ -597,24 +593,25 @@
   <section id="footer">
     <div class="bg-warning w-full py-4" id="footer-upper-part">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <div class="ms-5" >
+        <div class="ms-5">
           <h3 class="">OUR PARTNERS</h3>
           <h1 class="text-white">AND CLIENTS</h1>
         </div>
         <div class="gap-5 d-flex flex-wrap justify-content-around ">
-          <img src="./assets/img/partner-1.png" alt=""  class="mx-4 " width="70px" height="70px">
-          <img src="./assets/img/partner-2.png" alt=""  class="mx-4" width="70px" height="70px">
-          <img src="./assets/img/partner-3.png" alt=""  class="mx-4" width="70px" height="70px"> 
-          <img src="./assets/img/partner-5.png" alt=""  class="mx-4" width="70px" height="70px">
+          <img src="./assets/img/partner-1.png" alt="" class="mx-4 " width="70px" height="70px">
+          <img src="./assets/img/partner-2.png" alt="" class="mx-4" width="70px" height="70px">
+          <img src="./assets/img/partner-3.png" alt="" class="mx-4" width="70px" height="70px">
+          <img src="./assets/img/partner-5.png" alt="" class="mx-4" width="70px" height="70px">
         </div>
       </div>
-    </div> 
+    </div>
 
-    <div class="bg-dark text-white d-flex  " id="footer-middle-part" >
+    <div class="bg-dark text-white d-flex  " id="footer-middle-part">
       <div class="container row d-flex gap-2 mx-auto mt-5 py-4">
         <div class="col-12 col-md-6 col-lg-3" id="footer-about">
           <h2 class="text-warning ">ABOUT US</h2>
-          <p>Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia condimentum.</p>
+          <p>Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit amet augue
+            placerat fringilla a id lacus. Fusce tincidunt in leo lacinia condimentum.</p>
         </div>
         <div class="d-none d-lg-block col-lg-4 " id="fooetr-explore">
           <h2 class="text-warning">EXPLORE</h2>
@@ -631,23 +628,22 @@
               <li><i class="fa-solid fa-angle-right text-warning me-2"></i><a href="#">Get Taxi</a></li>
             </ul>
           </div>
-          
+
         </div>
         <div class="col-12 col-md-5 col-lg-3 mx-lg-4" id="footer-contact">
           <h2 class="text-warning">CONTACT US</h2>
           <p><span class="fw-bold">Address:</span> 43 2-nd Avenue, New York, NY 29004-7153</p>
         </div>
       </div>
-      
+
     </div>
 
     <div class="p-2" id="footer-bottom-part">
-      <p class="my-4 mx-4  "> <span class="text-warning">Like-themes</span> 2017 © All Rights Reserved <span class="text-warning">Terms of use</span> </p>
+      <p class="my-4 mx-4  "> <span class="text-warning">Like-themes</span> 2017 © All Rights Reserved <span
+          class="text-warning">Terms of use</span> </p>
     </div>
   </section>
   <!-- ================================================= -->
-
-
 
 
 
@@ -661,9 +657,41 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
 
-  <!-- swiper js -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+  <!-- jquery cdn  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- owl carousel cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav:true,
+      responsiveClass: true,
+      autoplay: true,
+      autoplayTimeout: 10000,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        770: {
+          items: 2,
+          nav: true,
+          loop: true,
+        },
+        1200: {
+          items: 3,
+          nav: true,
+          loop: true
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>

@@ -12,9 +12,7 @@
     font-weight: 900 !important;
     font-size: 40px;
 }
-#footer-about h2{
 
-}
 #footer-middle-part h2{
     color: #ffc107;
     font-size: 1.6rem;
@@ -43,6 +41,10 @@
 #fooetr-explore >div {
     margin-left: -40px;
     padding-left: -20px;
+}
+#fooetr-explore li:hover a{
+    color: #ffc107;
+
 }
 #footer-bottom-part{
     background-color: #0a0a0a;
