@@ -1,12 +1,19 @@
 #download{
     background-image: url('../assets/img/background.jpg');
     width: 100%;
+    height: 90%;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(27, 24, 24, 0.89);
+    /* margin-bottom: 5rem; */
+    position: relative;
 }
 #download>div{
+    background-color: black;
     opacity: 0.8;
+    /* height: 30rem; */
+    /* height: 100vh; */
 }
 
 #download>div>h1{

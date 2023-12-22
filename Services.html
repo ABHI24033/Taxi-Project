@@ -36,8 +36,38 @@
 </head>
 
 <body>
+
+  <!-- <section class=" bg-warning row">
+    <div class=" yellow-part-servics col-8 bg-white text-dark   py-2 ">
+      <div class=" d-flex gap-1">
+
+        <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center bg-primary">
+          <i class="fa-solid fa-phone "></i>
+          <p class=" ">800-5-800</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center bg-danger">
+          <i class="fa-brands fa-skype "></i>
+          <p class=" ">GETTAXIPARK</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center ">
+          <i class="fa-solid fa-location-dot "></i>
+          <p class=" ">43 2-ND AVENUE, NEW YORK, 29004-7153</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center ">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          
+        </div>
+      </div>
+
+      <div class=" px-2 bg-danger w-25">
+        <button class="bg-warning py-1 px-2 w-full">OUR TARIFFS</button>
+      </div>
+
+    </div>
+  </section> -->
   <!-- Header Section -->
-  <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top z-10" data-bs-theme="dark">
     <div class="container py-2 ">
       <a class="navbar-brand" href="#">
         <img src="./assets/img/logo-inner.png" alt="logo">
@@ -52,15 +82,15 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav gap-3 ms-auto mb-2 mb-lg-0">
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle activenav " href="#" aria-expanded="false">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#">
               Home
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu ">
               <li><a class="dropdown-item" href="#">Homepage 1</a></li>
               <li><a class="dropdown-item" href="#">Homepage 2</a></li>
-              <li><a class="dropdown-item activenav" href="#">Homepage 3</a></li>
+              <li><a class="dropdown-item" href="#">Homepage 3</a></li>
             </ul>
           </li>
 
@@ -69,11 +99,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Services.html">services</a>
+            <a class="nav-link activenav" href="#">services</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
               our blogs
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
@@ -85,7 +115,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
               gallery
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
@@ -97,7 +127,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
               shop
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
@@ -108,7 +138,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
               contacts
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
@@ -120,7 +150,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
               pages
               <i class="fa-solid fa-angle-right angle"></i>
             </a>
@@ -144,93 +174,29 @@
     </div>
   </nav>
 
-  <section id="banner">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <img src="./assets/img/carousel-2 (1).jpg" class="d-block kenburns-bottom-right" alt="slide img1">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/carousel-2 (2).jpg" class="d-block kenburns-bottom-right" alt="slide img-2" />
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/corusel-img-3.jpg" class="d-block kenburns-bottom-right" alt="slide img3">
-        </div>
-      </div>
+  <section class=" " id="banner-services">
+    <div class="bg-dark ">
 
-      <div class="bg-white absolute top-10 left-10 z-10 banner-card">
-        <h1 class=""> GET TAXI <span class="text-warning">ONLINE</span> </h1>
-        <form action="" class="container ">
-          <div class=" carImg my-4 d-flex">
-            <a href="#" class=" px-2 pt-4 activeCarImg ">
-              <img src="./assets/img/car1.png" alt="">
-              <p>STANDARD</p>
-            </a>
-            <a href="#" class=" px-2 pt-4 ">
-              <img src="./assets/img/car2.png" alt="">
-              <P>BUSINESS</P>
-            </a>
-            <a href="#" class=" px-2 pt-4 ">
-              <img src="./assets/img/car3.png" alt="">
-              <P>VIP</P>
-            </a>
-            <a href="#" class="px-2 pt-4 ">
-              <img src="./assets/img/car4.png" alt="">
-              <P>BUS-MINIVAN</P>
-            </a>
-          </div>
-          <div class="row my-4 ">
-            <div class="col-12 my-2 col-md">
-              <input type="text" class="form-control" placeholder="From Address...">
-            </div>
-            <div class="col-12 my-2 col-md">
-              <input type="text" class="form-control" placeholder="To...">
-            </div>
-          </div>
-          <div class="row my-4">
-            <div class="col-12 my-2 col-md">
-              <input type="text" class="form-control" placeholder="Phone Number">
-            </div>
-            <div class="col-12 my-2 col-md">
-              <input type="text" class="form-control" placeholder="Date and Time">
-            </div>
-          </div>
-          <div class="d-flex justify-content-center">
-            <button class="btn btn-warning btn-dark:hover fs-5  mx-auto rounded-full">GET TAXI</button>
-          </div>
-
-        </form>
-      </div>
+      <p class="text-white my-0">
+        <a href="#" class="text-white text-decoration-none">TaxiPark</a>
+        <span class="text-warning"> // Services</span>
+      </p>
+      <h1 class="text-white text-center fw-bolder">SERVICES</h1>
     </div>
   </section>
-  <!-- yellow Part -->
-  <section class="w-full bg-warning ">
-    <div class=" yellow-part row text-dark container-fluid d-flex justify-content-around py-2 ">
-      
-      <div class="col-12 col-md-5 col-lg-3 d-flex justify-content-center py-3">
-        <i class="fa-solid fa-phone fs-5 bg-white p-3"></i>
-        <h2 class="fs-3 mt-2 mx-2">800-5-800</h2>
-      </div>
-      <div class="col-12 col-md-5 col-lg-3  d-flex justify-content-center  py-3">
-        <i class="fa-brands fa-skype fs-5 bg-white p-3"></i>
-        <h2 class="fs-5 mt-2 mx-2">GETTAXIPARK</h2>
-      </div>
-      <div class="col-12 col-md-5 col-lg-3 d-flex justify-content-center py-3">
-        <i class="fa-solid fa-location-dot fs-5 bg-white p-3"></i>
-        <h2 class="fs-5 mt-1 mx-2">43 2-ND AVENUE, NEW YORK, 29004-7153</h2>
-      </div>
-      <div class="col-12 col-md-5 col-lg-3 py-2 ">
-        <button>OUR TARIFFS</button>
-      </div>
-      
-    </div>
-  </section>
+
 
   <!-- ============services section================ -->
-  <section class="mt-5 py-3 " id="services">
+  <section class="my-5 py-3 " id="services">
     <div class="heading mb-4">
       <h3 class="fs-4 text-warning text-center">WELCOME</h3>
       <h1 class="text-center">OUR SERVICES</h1>
+    </div>
+    <div class=" w-lg-50 w-75 mx-auto">
+      <p class="text-center my-5">Nulla egestas ante sit amet tincidunt bibendum. Duis id aliquet tellus, ut iaculis
+        orci. Suspendisse efficitur ornare neque, rhoncus viverra dui semper in. Ut nec gravida enim. Maecenas viverra
+        elit id nulla euismod tempus. Proin hendrerit nibh mauris, eget mollis ex elementum vel. Sed facilisis
+        scelerisque viverra. </p>
     </div>
     <!-- -----------------cards -->
     <div class="container row d-flex flex-wrap justify-content-center mx-auto gap-1 ">
@@ -281,12 +247,57 @@
   </section>
   <!-- =========================================== -->
   <!-- ==================traffic================== -->
-  <section id="tariffs" class="mt-5 py-5 pb-5 ">
-    <div class="heading mb-4">
+  <section id="tariffs-services" class="mt-5">
+    <div class="bg-dark py-5">
+      <div class="heading mb-4">
+        <h3 class="fs-4 text-warning text-center ">SEE OUR</h3>
+        <h1 class="text-center text-white ">TARIFFS</h1>
+      </div>
+      <div class="container row mx-auto d-flex gap-3 justify-content-center my-5">
+
+        <div class="card bg-white py-4 col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/tariff-1.png" class="card-img-top w-50 mx-auto py-4" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center fw-bold">STANDART</h3>
+            <p class="card-text text-center px-2">Standard sedan for a drive around the city at your service</p>
+            <h1 class="text-center fw-bold">$2 <span class="fs-4">/km</span></h1>
+          </div>
+        </div>
+        <div class="card bg-white py-4 col-12 col-md-6 col-lg-2">
+          <img src="./assets/img/tariff-2.png" class="card-img-top w-50 mx-auto py-4" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center fw-bold">BUSINESS</h3>
+            <p class="card-text text-center px-2">Standard sedan for a drive around the city at your service</p>
+            <h1 class="text-center fw-bold">$2.7 <span class="fs-4">/km</span></h1>
+          </div>
+        </div>
+        <div class="card bg-white py-4 relative col-12 col-md-6 col-lg-2" id="vip">
+          <img src="./assets/img/tariff-3.png" class="card-img-top w-50 mx-auto py-4" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center fw-bold">VIP</h3>
+            <p class="card-text text-center px-2">Standard sedan for a drive around the city at your service</p>
+            <h1 class="text-center fw-bold">$5 <span class="fs-4">/km</span></h1>
+          </div>
+          <div id="vip-logo">
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="card bg-white py-4 col-12 col-md-6 col-lg-2">
+          <img src="./assets/img/tariff-4.png" class="card-img-top w-50 mx-auto py-2" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center fw-bold">BUS-MINIVAN</h3>
+            <p class="card-text text-center px-2">Standard sedan for a drive around the city at your service</p>
+            <h1 class="text-center fw-bold">$4.5 <span class="fs-4">/km</span></h1>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- <div class="heading mb-4">
       <h3 class="fs-4 text-warning text-center">SEE OUR</h3>
       <h1 class="text-center">TARIFFS</h1>
-    </div>
-    <div class="container row mx-auto d-flex gap-3 justify-content-center my-5">
+    </div> -->
+    <!-- <div class="container row mx-auto d-flex gap-3 justify-content-center my-5">
 
       <div class="card py-4 col-12 col-md-6 col-lg-2">
         <img src="./assets/img/tariff-1.png" class="card-img-top w-50 mx-auto py-4" alt="...">
@@ -324,95 +335,7 @@
         </div>
       </div>
 
-    </div>
-  </section>
-  <!-- =========================================== -->
-  <!-- ==============Download app section============ -->
-  <section id="download">
-    <div class=" bg-dark w-full">
-      <div class="heading mb-4 pt-5">
-        <h3 class="fs-4 text-warning text-center">GET MORE BENEFITS</h3>
-        <h1 class="text-center fw-bolder">DOWNLOAD THE APP</h1>
-      </div>
-
-
-      <div class="  d-flex row justify-content-between flex-column flex-md-row ">
-        <div class="download-left-side col-11 col-md-4 mx-auto ">
-          <div class="d-flex px-4 my-5 w-75 mx-auto download-detail">
-            <span class=" bg-warning text-dark fs-6 fw-bold mx-3">01</span>
-            <div>
-              <h2 class="fs-5 fw-bolder text-warning text-center text-md-start">FAST BOOKING</h2>
-              <p class="fw-light text-center text-md-start">Nam ac ligula congue, interdum enim sit amet, fermentum
-                nisi.</p>
-            </div>
-          </div>
-
-          <div class="d-flex px-4 my-5 w-75 mx-auto download-detail">
-            <span class=" bg-warning text-dark fs-6 fw-bold mx-3">02</span>
-            <div>
-              <h2 class="fs-5 fw-bolder text-warning text-center text-md-start">FAST BOOKING</h2>
-              <p class="fw-light text-center text-md-start">Nam ac ligula congue, interdum enim sit amet, fermentum
-                nisi.</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-11 col-md-3 mx-auto" id="mobile-image">
-          <img src="./assets/img/mobile-view.png" alt="mobile image" class="d-none d-lg-block">
-          <div class="bg-warning w-75  gap-2 flex-column  px-5 py-5 d-lg-none">
-            <a href="#"><img src="./assets/img/app-google-150x50.png" alt="app-google"></a>
-            <a href="#"><img src="./assets/img/app-apple-150x53.png" alt="apple-app"></a>
-          </div>
-        </div>
-
-        <div class=" download-right-side mx-auto col-11 col-md-4 ">
-
-          <div class="d-flex px-4 my-5 w-75 mx-auto download-detail">
-            <span class=" bg-warning text-dark fs-6 fw-bold mx-3">03</span>
-            <div>
-              <h2 class="fs-5 fw-bolder text-center text-md-end text-warning ">FAST BOOKING</h2>
-              <p class="fw-light text-center text-md-end">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex px-4 my-5 w-75 mx-auto download-detail ">
-            <span class=" bg-warning text-dark fs-6 fw-bold mx-3">04</span>
-            <div>
-              <h2 class="fs-5 fw-bolder text-warning text-center text-md-end">FAST BOOKING</h2>
-              <p class="fw-light text-center text-md-end">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- =========================================== -->
-  <!-- ================Driver Section============== -->
-  <section id="driver">
-    <div class="heading mb-4 pt-5 mx-5">
-      <h3 class="fs-4 text-warning ">FOR DRIVERS</h3>
-      <h1 class=" fw-bolder">DO YOU WANT TO EARN WITH US?</h1>
-    </div>
-    <div>
-      <p class=" w-75 w-md-50 mx-5 ">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
-        hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.</p>
-      <div class="list">
-        <ul>
-          <li class="fw-bolder my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>Luxury cars</li>
-          <li class="fw-bolder my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>No fee</li>
-          <li class="fw-bolder my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>Weekly payment</li>
-          <li class="fw-bolder my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>Fixed price</li>
-          <li class="fw-bolder my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>Good application
-          </li>
-          <li class="fw-bold my-2 "><i class="fa-solid fa-check text-warning fw-bolder mx-3 "></i>Stable orders</li>
-        </ul>
-
-      </div>
-      <button class="btn text-dark">BECOME A DRIVER</button>
-    </div>
-
+    </div> -->
   </section>
   <!-- =========================================== -->
 
@@ -570,14 +493,14 @@
     </div>
     </div>
 
-    <div class="container d-flex flex-column flex-md-row" id="OfferImage">
+    <!-- <div class="container d-flex flex-column flex-md-row" id="OfferImage">
       <div class=" w-full w-lg-50">
         <a href="#"><img src="./assets/img/banner-1-4.png" alt="" class=" " /></a>
       </div>
       <div class=" w-full w-lg-50">
         <a href="#"><img src="./assets/img/banner-2-2.png" alt="" class="" /></a>
       </div>
-    </div>
+    </div> -->
   </section>
   <!-- ================================================= -->
   <!-- ====================Footer====================== -->
@@ -629,8 +552,8 @@
 
     </div>
 
-    <div class="p-2" id="footer-bottom-part">
-      <p class="my-4 mx-4  "> <span class="text-warning">Like-themes</span> 2017 © All Rights Reserved <span
+    <div class="py-2 " id="footer-bottom-part">
+      <p class="my-4 mx-5  container"> <span class="text-warning">Like-themes</span> 2017 © All Rights Reserved <span
           class="text-warning">Terms of use</span> </p>
     </div>
   </section>

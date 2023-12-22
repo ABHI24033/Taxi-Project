@@ -50,3 +50,11 @@
     background-position: 0px 0px, 7px 7px;
 }
 
+#tariffs-services{
+background-image: url('../assets/img/carousel-2\ \(2\).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#tariffs-services>div{
+opacity: 0.8;
+}

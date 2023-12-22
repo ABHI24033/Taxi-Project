@@ -9,14 +9,14 @@
 }
 #footer-upper-part h1{
     line-height: 40px;
-    font-weight: 900 !important;
+    font-weight: 700 !important;
     font-size: 40px;
 }
 
 #footer-middle-part h2{
     color: #ffc107;
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 1.6rem;
 }
 #footer-middle-part p{

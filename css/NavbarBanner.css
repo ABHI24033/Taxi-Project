@@ -13,7 +13,7 @@
     box-shadow: none;
 }
 section{
-    overflow: hidden;
+    /* overflow: hidden; */
     overflow-x: hidden;
 }
 
@@ -25,6 +25,14 @@ nav>span{
     background: yellow;
     width: 80%;
     margin: auto;
+}
+nav a{
+    font-weight: 600 !important;
+    font-size: 0.87rem !important;
+}
+.activenav{
+    color: #ffc107 !important;
+    
 }
 .navbar{
     opacity: 0.90 !important;
@@ -73,6 +81,8 @@ nav>span{
     background-color: orange;
     transition: all 2s;
     padding: 0% !important;
+    z-index: 100 !important;
+
 }
 .dropdown-item{
     color: black;
@@ -270,4 +280,47 @@ nav>span{
     .carousel-item{
         height: 70rem;
     } 
+}
+
+
+/* banner services */
+#banner-services{
+    background-image: url('../assets/img/banner-1-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 5.2rem; */
+    opacity: 0.90;
+    z-index: -1 !important;
+}
+#banner-services >div{
+    opacity: 0.9;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#banner-services >div>p{
+    font-size: 0.9rem;
+}
+
+.yellow-part-servics{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+.yellow-part-servics button{
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #212529;
+    background-color: #ffc107;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: #212529;
+    transition: all 0.5s linear;
+}
+.yellow-part-servics p,.yellow-part-servics i{
+    font-size: 0.5rem;
+    font-weight: 700;
 }
