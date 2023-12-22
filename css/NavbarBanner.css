@@ -309,6 +309,7 @@ nav a{
     width: 99%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .yellow-part-servics button{
     border-radius: 50px;
@@ -321,6 +322,6 @@ nav a{
     transition: all 0.5s linear;
 }
 .yellow-part-servics p,.yellow-part-servics i{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
